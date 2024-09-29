@@ -1,0 +1,39 @@
+.rec-container{
+  display: flex;
+  /* grid-template-columns: 120px 1fr; */
+  column-gap: 20px;
+  margin: 14px 8px;
+  align-items: center;
+  color: white;
+  font-family: Arial;
+}
+.rec-container img{
+  height: 120px;
+  /* width: 100%; */
+}
+.rec-container .details{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.rec-container .details h1{
+  font-size: 15px;
+  margin: 0px;
+  padding: 0;
+  /* padding-top: 8px; */
+}
+.rec-container .details h2{
+  font-size: 13px;
+  font-weight: 500;
+  color: rgba(255,255,255,.6);
+  margin: 0px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.rec-container .details div{
+  display: flex;
+  background-color: rgba(0,0,0,.3);
+  width: 100%;
+  height: 60px;
+  border: none;
+}

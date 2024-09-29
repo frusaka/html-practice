@@ -1,0 +1,71 @@
+.sys-settings,
+.nav-buttons{
+  position: absolute;
+  height: 16px;
+  padding: 8px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+.sys-settings{
+  top: 0px;
+  left: 0;
+  right: 0;
+}
+
+.nav-buttons{
+  bottom: 0px;
+  left: 0;
+  right: 0;
+}
+
+.left-section,
+.right-section{
+  position: absolute;
+  bottom: 0px;
+  padding-top: 30px;
+}
+
+.left-section{
+  left: 20px;
+}
+
+.right-section{
+  right: 18px;
+  display: flex;
+  align-items: baseline;
+  column-gap: 2px;
+}
+
+.sys-settings .right-section img,
+.sys-settings .left-section img
+{
+  height: 14px;
+  object-fit: cover;
+  filter: invert(100%);
+}
+
+.sys-settings .right-section .battery-icon{
+  height: 10px;
+  width: 24px;
+  object-fit: fill;
+  /* height: unset; */
+}
+.network-icon{
+  width: 17px;
+}
+
+.nav-buttons{
+  display: flex;
+  justify-content: center;
+}
+
+.nav-icons{
+  width: 80%;
+}
+
+.vision{
+  border-radius: 6px;
+}

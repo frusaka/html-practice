@@ -1,0 +1,56 @@
+.app-body{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  font-size: 15px;
+}
+
+.header,
+.footer {
+  display: flex;
+  background-color: rgba(0,0,0,.25);
+  width: 100%;
+  justify-content: center;
+  height: 70px;
+}
+
+.header{  
+  padding-bottom: 12px;
+  align-items:  end;
+}
+
+.chess-logo{
+  width: 30%;
+}
+
+.footer{
+  /* padding-top: 0px; */
+  justify-content: space-around;
+}
+
+.footer div{
+  cursor: pointer;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  font-size: 11px;
+  color: rgba(255,255,255,.5);
+}
+
+.footer .home{
+  background-color: rgba(0,0,0,.25);
+}
+
+.app-main{
+  overflow: hidden;
+  overflow-y: scroll;
+  flex: 1;
+}
+
+.app-main::-webkit-scrollbar {
+  display: none;
+}
