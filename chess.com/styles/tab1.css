@@ -5,7 +5,6 @@
   margin: 14px 8px;
   align-items: center;
   color: white;
-  font-family: Arial;
 }
 .rec-container img{
   height: 120px;
@@ -16,24 +15,85 @@
   display: flex;
   flex-direction: column;
 }
-.rec-container .details h1{
-  font-size: 15px;
-  margin: 0px;
-  padding: 0;
-  /* padding-top: 8px; */
-}
-.rec-container .details h2{
-  font-size: 13px;
-  font-weight: 500;
-  color: rgba(255,255,255,.6);
-  margin: 0px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-}
+
 .rec-container .details div{
   display: flex;
   background-color: rgba(0,0,0,.3);
   width: 100%;
   height: 60px;
   border: none;
+}
+
+.game-archive{
+  display: flex;
+  flex-direction: column;
+  padding: 8px;
+}
+
+.game-archive .label{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0,0, 0, .4);
+  height: 40px;
+}
+
+.game-archive .label p{
+  color: rgba(255,255,255,.7);
+}
+
+.game{
+  display: grid;
+  grid-template-columns: 24px 36px 1fr;
+  height: 64px;
+  column-gap: 8px;
+  align-items: center;
+  border-bottom: 1px solid rgba(0,0, 0, .4);
+}
+
+.game .details{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.game img{
+  width: 100%;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.game .opponent-profile{
+  height: 40px;
+}
+
+.game .won,
+.game .lost
+{
+  width: 20px;
+  height: 18px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.game .won {
+  background-color: rgb(129,182,76);
+}
+
+.game .lost{
+  background-color: rgb(238, 43, 43);
+}
+
+.game .details{
+  justify-content: space-between;
+}
+
+.game .details .eval{
+  min-width: 24px;
+}
+
+.game .details .opponent-name{
+  font-size: 13px;
+  /* font-weight: 500; */
+  width: 60%;
 }

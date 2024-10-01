@@ -1,0 +1,72 @@
+.coach-container {
+  height: 200px;
+  display: flex;
+  align-items: end;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+.coach-container .coach{
+  width: 80px;
+  height: 80px;
+}
+
+.coach-container .speech{
+  flex: 1;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  p{
+    color: black;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    padding-left: 14px;
+    align-content: center;
+  }
+}
+
+.options-container{
+  position: absolute;
+  bottom: 0;
+  /* height: 57%; */
+}
+
+.board{
+  opacity: .4;
+}
+
+.options-container{
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--app-color);
+  border-radius: 12px 12px 0px 0px;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.options-container div{
+  height: 60px;
+  border-radius: 8px;
+  border-bottom: 5px solid rgba(0, 0, 0, .15);
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.options-container .progress{
+  background-color: gray;
+  height: 36px;
+}
+
+.options-container .option-main{
+  background-color: rgb(129,182,76);
+}
+
+.options-container .option-alt{
+  background-color: rgba(0,0,0,.25);
+}

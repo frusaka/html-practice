@@ -1,0 +1,77 @@
+body {
+  background-image: linear-gradient(60deg, #7371ee 1%,#a1d9d6 100%);
+  font-size: 13px;
+}
+
+:root{
+  --app-color: rgb(40, 100, 104);
+  --header-font-size: 18px;
+  --section-font-size: 15px;
+}
+
+h1{
+  font-family: Roboto, Arial;
+  font-size: var(--header-font-size);
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+}
+
+h2{
+  font-family: Roboto, Arial;
+  font-size: var(--section-font-size);
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+}
+p{
+  font-family: Roboto, Arial;
+  color: rgba(255,255,255,.6);
+  margin: 0px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.iphone-x .header,
+.iphone-x .footer {
+  display: flex;
+  background-color: rgba(0,0,0,.25);
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.iphone-x .header{  
+  padding-bottom: 12px;
+  align-items:  end;
+}
+
+.chess-logo{
+  width: 30%;
+}
+
+.iphone-x .footer{
+  justify-content: space-around;
+}
+
+.iphone-x .footer div{
+  cursor: pointer;
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255,255,255,.5);
+}
+
+.iphone-x .footer .home{
+  background-color: rgba(0,0,0,.25);
+}
+
+.app-main{
+  position: relative;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.app-main::-webkit-scrollbar {
+  display: none;
+}

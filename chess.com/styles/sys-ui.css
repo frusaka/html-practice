@@ -1,5 +1,5 @@
-.sys-settings,
-.nav-buttons{
+.sys-settings
+{
   position: absolute;
   height: 16px;
   padding: 8px 10px;
@@ -7,16 +7,7 @@
   align-items: center;
   justify-content: space-between;
   z-index: 100;
-}
-
-.sys-settings{
   top: 0px;
-  left: 0;
-  right: 0;
-}
-
-.nav-buttons{
-  bottom: 0px;
   left: 0;
   right: 0;
 }
@@ -51,21 +42,7 @@
   height: 10px;
   width: 24px;
   object-fit: fill;
-  /* height: unset; */
 }
 .network-icon{
   width: 17px;
-}
-
-.nav-buttons{
-  display: flex;
-  justify-content: center;
-}
-
-.nav-icons{
-  width: 80%;
-}
-
-.vision{
-  border-radius: 6px;
 }
