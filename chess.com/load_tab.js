@@ -11,4 +11,4 @@ function loadContent(number) {
     })
     .catch(error => console.error('Error loading content:', error));
 }
-document.addEventListener('DOMContentLoaded', function loadHome() { return loadContent(4) })
+document.addEventListener('DOMContentLoaded', function loadHome() { return loadContent(1) })
