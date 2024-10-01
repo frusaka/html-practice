@@ -28,7 +28,7 @@
   padding-top: 12px;
 }
 
-.watch-container .content .icon{
+.watch-container .icon{
   height: 54px;
   width: 54px;
   background-color: gray;
@@ -45,9 +45,26 @@
   /* padding: 40px 0px; */
   padding-top: 2px;
   padding-bottom: 8px;
-  /* min-height: 54px; */
+}
+
+#playing .details{
+  flex-direction: row;
+  justify-content: unset;
+  column-gap: 4px;
+}
+
+.watch-container :last-child .details,
+#news :last-child
+{
+  border-bottom: none;
 }
 
 #news .details{
   min-height: 72px;
+}
+
+.watch-container .opponent-title{
+  background-color: red;
+  padding: 1px 6px;
+  border-radius: 4px;
 }
