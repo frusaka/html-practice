@@ -32,15 +32,15 @@ p{
   padding-bottom: 8px;
 }
 
-.iphone-x .header,
-.iphone-x .footer {
+.header,
+.footer {
   display: flex;
   background-color: rgba(0,0,0,.25);
   justify-content: center;
   box-sizing: border-box;
 }
 
-.iphone-x .header{  
+.header{  
   padding-bottom: 12px;
   align-items:  end;
 }
