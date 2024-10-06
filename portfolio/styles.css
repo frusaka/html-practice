@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  height: 1000px;
+}
+
+header, footer{
+  background-color: rgba(16, 16, 16,.9);
+  color: white;
+  width: 100%;  
+}
+
+header{
+  height: 64px;
+  top: 0;
+}
+
+footer{
+  position: unset;
+  height: 120px;
+  bottom: 0;
+}
+
+main{
+  flex: 1;
+}
+
+main .what{
+  display: flex;
+  column-gap: 10px;
+}
+
+main .what div{
+  background-color: gray;
+}
+
